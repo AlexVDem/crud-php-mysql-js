@@ -1,14 +1,3 @@
-<!-- !!!!!!!!! This code tested only on PHP7 and MySQL ('MadiaDB') !!!!!!!!! 
-Be adviced, local w2ui-1.5.rc1.min.css, jquery-3.1.1.min.js, w2ui-1.5.rc1.min.js files in links below
--->
-
-<?php
-/*session_start();
-if(!isset($_SESSION["session_username"])):
-    $location = "../../index.php";
-    header("location:".$location);
-else:*/
-?>
 
 <!DOCTYPE html>
 <html>
@@ -138,5 +127,3 @@ function addRecord(recid) {
 }
 
 </script>
-
-<?php //endif; ?>
